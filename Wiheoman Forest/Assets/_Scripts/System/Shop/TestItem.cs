@@ -70,6 +70,7 @@ public class TestItem : ScriptableObject
         }
     }
 
+    /*
     [Header("아이템 설명")]
     [SerializeField] private string mItemDescription;
     public string ItemDescription
@@ -80,7 +81,7 @@ public class TestItem : ScriptableObject
         }
     }
 
-    /*
+    
     [Header("씬에서 오브젝트로 보여질 아이템 프리팹")]
     [SerializeField] private GameObject mItemPrefab;
     public GameObject ItemPrefab

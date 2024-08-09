@@ -51,7 +51,7 @@ public class ItemShopSlot : MonoBehaviour
         itemImage.sprite = sellItem.ItemImage;
         itemNameText.text = sellItem.ItemName;
         itemCostText.text = totalCost.ToString();
-        itemDescriptionText.text = sellItem.ItemDescription;
+        // itemDescriptionText.text = sellItem.ItemDescription;
 
         buyButton.onClick.RemoveAllListeners();
         buyButton.onClick.AddListener(OnBuyButtonClicked);

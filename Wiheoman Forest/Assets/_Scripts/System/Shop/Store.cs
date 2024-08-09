@@ -36,7 +36,7 @@ public class Store : MonoBehaviour
 
     void Start()
     {
-        itemsList = JsonUtility.FromJson<ItemList>(Resources.Load<TextAsset>("Json Files/ItemTest").text);
+
     }
 
     void Update()
